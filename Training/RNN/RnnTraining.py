@@ -87,6 +87,5 @@ plt.xlabel('time')
 plt.ylabel('Google Stock Price')
 plt.legend()
 plt.show()
- 
 
 # %%
