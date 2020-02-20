@@ -20,7 +20,7 @@ sc = MinMaxScaler(feature_range = (0, 1))
 x = sc.fit_transform(x)
 
 # %%
-from minisom import MiniSom 
+#from minisom import MiniSom 
 
 # %%
 som = MiniSom(x=10,y=10,input_len=15,sigma = 1.0, learning_rate = 0.5)
